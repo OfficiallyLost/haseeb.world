@@ -11,10 +11,10 @@ class Haseeb {
       });
    }
 
-   error = (error) => {
+   error(error) {
       console.log(error.message);
       console.log(error.stack.slice(0, 50));
-   };
+   }
 }
 
 module.exports = Haseeb;
