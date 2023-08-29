@@ -7,9 +7,11 @@ class Haseeb {
    }
 
    on() {
-      this.http.listen(8080, () => {
-         console.log('running');
-      });
+      app.listen(80, '0.0.0.0', () => console.log('running'));
+
+      // this.http.listen(8080, () => {
+      //    console.log('running');
+      // });
    }
 
    error(error) {
