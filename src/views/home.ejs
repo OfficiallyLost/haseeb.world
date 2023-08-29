@@ -1,0 +1,48 @@
+<!-- @format -->
+<%- include('../partials/base.ejs', { constants }) %>
+
+<body>
+   <div class="container">
+      <div class="header">
+         <h2 class="title">I'm Haseeb.</h2>
+         <p class="quick-bio">
+            17 Years Old. Living in Birmingham, England. Millionaire by 21,
+            married by 21, in Dubai at 21. Dream life, Insha'Allah
+         </p>
+      </div>
+      <div class="main">
+         <br />
+         <h2>My Skills</h2>
+         <p>
+            Programmer. Excellent Salesman. Business Strategist. Team/People
+            Management. Full Stack Web Developer. Copywriter.
+         </p>
+         <p>
+            <b>Coding Languages:</b> JavaScript, TypeScript, Python, GoLang,
+            EJS, HTML, CSS.
+         </p>
+         <br />
+         <h2>Future Ambitions/Endeavours</h2>
+         <p>Author, Stock trader, Cars, Hench.</p>
+         <br />
+         <h2>How To Contact</h2>
+         <p>Email: farooqhaseeb49@gmail.com</p>
+      </div>
+   </div>
+</body>
+
+<style>
+   .header {
+      padding-top: 5%;
+   }
+   .container {
+      text-align: center;
+      margin-top: 2.5%;
+      background-color: <%- constants.colours.primary %>;
+   }
+
+   h2,
+   p {
+      color: <%- constants.colours.text %>;
+   }
+</style>
