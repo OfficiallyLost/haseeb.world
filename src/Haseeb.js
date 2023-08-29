@@ -1,12 +1,13 @@
 /** @format */
+const http = require('http');
 
 class Haseeb {
    constructor(app) {
-      this.app = app;
+      this.http = http.createServer(app);
    }
 
    on() {
-      this.app.listen(9999, () => {
+      this.http.listen(9999, () => {
          console.log('running');
       });
    }
