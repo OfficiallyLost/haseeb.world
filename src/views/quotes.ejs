@@ -1,0 +1,33 @@
+<!-- @format -->
+
+<%- include('../partials/base.ejs', { constants }) %>
+<body>
+   <div class="container overflow-hidden">
+      <h1>My Quotes</h1>
+      <br />
+      <div class="row gy-5">
+         <% constants.quotes.forEach((quote) => { %>
+         <div class="col-6">
+            <div class="p-3 border"><%- quote %></div>
+         </div>
+         <% }); %>
+      </div>
+   </div>
+</body>
+
+<style>
+   .container {
+      text-align: center;
+      border-radius: 2%;
+      margin-top: 5%;
+   }
+
+   .border {
+      background-color: <%- constants.colours.secondary %>;
+   }
+
+   .p-3,
+   h1 {
+      color: <%- constants.colours.text %>;
+   }
+</style>
