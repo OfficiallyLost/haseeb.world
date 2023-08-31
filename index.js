@@ -18,4 +18,8 @@ app.get('/', (req, res) => {
    res.render('home', { constants });
 });
 
+app.get('/quotes', (req, res) => {
+   res.render('quotes', { constants });
+});
+
 haseeb.on();
