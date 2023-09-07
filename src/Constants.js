@@ -14,6 +14,7 @@ module.exports = {
       'If you really want something, imagine you have it - then it will run to you, instead of you chasing it',
       'Remove the possibility of failure, now failure will not occur. Only see success, now only success will occur',
       'Every adversity will always be a disadvantage. Take control your mind, now its your unique advantage, now you have control over your life',
-      '1 of 2 things in the world is energy. 2 forms of energy are positive and negative, choose which mindset you will accquire, there is no inbetween'
+      '1 of 2 things in the world is energy. 2 forms of energy are positive and negative, choose which mindset you will accquire, there is no inbetween',
+      'If you cannot visualise your goal in detail, then your past is your future, "one day" will never come, that day has to be today, right now',
    ],
 };
