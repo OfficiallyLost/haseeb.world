@@ -14,12 +14,8 @@ app.set('views', path.join(__dirname, './src/views'));
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.get('/', (req, res) => {
-   res.render('home', { constants });
-});
-
-app.get('/quotes', (req, res) => {
-   res.render('quotes', { constants });
-});
+app.get('/', (req, res) => res.render('home', { constants }));
+app.get('/quotes', (req, res) => res.render('quotes', { constants }));
+app.get('/youtube/', (req, res) => res.redirect('https://youtube.com/@HaseebMF'));
 
 haseeb.on();
