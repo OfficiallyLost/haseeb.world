@@ -9,7 +9,7 @@ module.exports = {
    quotes: [
       'Your dreams are just a mere representation of your future - only if you believe enough',
       'Why allow yourself to be affected by outer relations. Why allow your inner to flow freely, no direction or purpose in life',
-      'You are either a leader or follower, the only difference is the way of thought. Be open minded to the abstract',
+      'You are either a leader or follower, the only difference is the choice of thought. Be open minded to the abstract',
       'Each state of mind is a temporary state of mind, happiness or sadness, learn to accept its a never ending cycle - only then you\'re unstobbable',
       'Space follows all of its laws, in the ideal society - everyone would follow the law. Your mind has laws, follow them',
       'If you really want something, imagine you have it - then it will run to you, instead of you chasing it',
