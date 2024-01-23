@@ -14,7 +14,7 @@ module.exports = {
       'Space follows all of its laws, in the ideal society - everyone would follow the law. Your mind has laws, follow them',
       'If you really want something, imagine you have it - then it will run to you, instead of you chasing it',
       'Remove the possibility of failure, now failure will not occur. Only see success, now only success will occur',
-      'Life is similar to a boomerang, however you perceive is what you will receive',
+      'Life is similar to a boomerang, however you perceive is what you will receive and however you react is how you will perceive',
       'Every adversity will always be a disadvantage. Take control your mind, now its your unique advantage, now you have control over your life',
       'If you have an opinion on everything, ask yourself - what is bothering you?',
       'Everyone loves to feel respected, but not many have the self-respect to earn others respect',
