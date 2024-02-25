@@ -17,6 +17,7 @@ module.exports = {
       'Life is similar to a boomerang, however you perceive is what you will receive and however you react is how you will perceive',
       'Every adversity will always be a disadvantage. Take control your mind, now its your unique advantage, now you have control over your life',
       'If you have an opinion on everything, ask yourself - what is bothering you?',
+      'Your reality operates from your 5 senses. To compose your desired reality you need to ask sensory questions and change the answers.',
       'Everyone loves to feel respected, but not many have the self-respect to earn others respect',
       '1 of 2 things in the world is energy. 2 forms of energy are positive and negative, choose which mindset you will accquire, there is no inbetween',
       'If you cannot visualise your goal in detail, then your past is your future, "one day" will never come, that day has to be today, right now',
