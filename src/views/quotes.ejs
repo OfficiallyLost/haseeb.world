@@ -6,9 +6,12 @@
       <h1>My Quotes</h1>
       <br />
       <div class="row gy-5">
-         <% constants.quotes.forEach((quote) => { %>
+         <% Object.entries(constants.quotes).forEach(([k, q]) => { %>
          <div class="col-6">
-            <div class="p-3 border"><%- quote %></div>
+            <div class="p-3 border" color="blue">
+               <a class="quote" href="<%- k %>"></a>
+               <%- q %>
+            </div>
          </div>
          <% }); %>
       </div>
