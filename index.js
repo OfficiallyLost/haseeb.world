@@ -36,8 +36,12 @@ app.get('/quotes/:id', (req, res) => {
     res.render('quotes', { quote, constants, key })
 });
 
-app.get('/quotes', (req, res) => {
-    res.render('quotes', { constants });
+// app.get('/quotes', (req, res) => {
+//     res.render('quotes', { constants });
+// })
+
+app.get('*', (req, res) => {
+    res.render('no')
 })
 
 app.get('/youtube/', (req, res) => res.redirect('https://youtube.com/@HaseebMF'));
